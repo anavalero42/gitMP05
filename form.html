@@ -1,0 +1,28 @@
+<form action="/registration" method="POST">
+  <p>
+    Nom:
+    <input data-validation="length alphanumeric" data-validation-length="min4">
+  </p>
+  <p>
+    Cognom:
+    <input data-validation="length alphanumeric" data-validation-length="min4">
+  </p>
+  <p>
+    Email:
+    <input type="email" data-validation="email">
+  </p>
+  <p>
+    Data de neixament:
+    <input data-validation="date" data-validation-format="yyyy-mm-dd">
+  </p>
+  <p>
+    Edat:
+    <input type="text" data-validation="number">
+  </p>
+  <p>
+    <input type="submit">
+  </p>
+</form>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script type="text/javascript" src="js/validation.js" charset="utf-8"></script>
